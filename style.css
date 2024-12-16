@@ -1,0 +1,45 @@
+
+*{
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    cursor: pointer;
+}
+
+
+.navbar-brand img {
+    max-width: 120px;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+
+
+
+.card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+footer.bg-dark {
+    background-color: #1c1c1c;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
+}
